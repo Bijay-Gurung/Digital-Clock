@@ -24,3 +24,47 @@ span{
     top: 150px;
     left: 37%;
 }
+
+/*For Mobile*/
+@media(min-width:320px) and (max-width:480px){
+    .container{
+        height: 200px;
+        width: 200px;
+        position: relative;
+        left: 60px;
+        
+    }
+    span{
+        position: relative;
+        top: 90px;
+        left: 40px;
+        
+    }
+}
+
+/*For Tablet*/
+@media(min-width:481px) and (max-width:768px){
+    .container{
+        height: 300px;
+        width: 300px;
+        position: relative;
+        left: 78px;
+    }
+    span{
+        position: relative;
+        left: 100px;
+    }
+}
+
+/*For Laptop*/
+@media(min-width:769px) and (max-width:1024px){
+    .container{
+        position: relative;
+        top: 200px;
+        left: 180px;
+    }
+    span{
+        position: relative;
+        top: 180px;
+    }
+}
